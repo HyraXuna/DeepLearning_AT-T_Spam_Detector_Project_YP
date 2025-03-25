@@ -36,15 +36,15 @@ Here are some graphical results:
 
 * For the basic model:
 
-![BasicModel]("/scores_simple_model.png")
+![BasicModel](scores_simple_model.png)
 
 * For the Bert model:
 
-![BertModel]("/scores_bert_model.png")
+![BertModel](scores_bert_model.png)
 
 * Performance comparison:
 
-![PerfComparison]("/performance_comparison.png")
+![PerfComparison](performance_comparison.png)
 
 The 2 models have quiet similar performances and scores, but the `Bert model` is much more time longer to compute than the `simple model`. Moreover, for more general data with much more number of message, the `Bert model` could be more stable than the `simple model`. So for real utilization, it will depend of the case and needing, if we need something fast or more stable.
 

@@ -1,5 +1,4 @@
 # AT&T Spam Detector (Deep Learning)
-_(juste en dessous des badges sympatiques à placer)_
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
@@ -31,21 +30,21 @@ tensorflow
 tensorflow-text=="2.15.0"
 ```
 
-### Some Results
+## Some Results
 
 Here are some graphical results:
 
 * For the basic model:
 
-![BasicModel]("scores_simple_model.png")
+![BasicModel]("/scores_simple_model.png")
 
 * For the Bert model:
 
-![BertModel]("scores_bert_model.png")
+![BertModel]("/scores_bert_model.png")
 
 * Performance comparison:
 
-![PerfComparison]("performance_comparison.png")
+![PerfComparison]("/performance_comparison.png")
 
 The 2 models have quiet similar performances and scores, but the `Bert model` is much more time longer to compute than the `simple model`. Moreover, for more general data with much more number of message, the `Bert model` could be more stable than the `simple model`. So for real utilization, it will depend of the case and needing, if we need something fast or more stable.
 
